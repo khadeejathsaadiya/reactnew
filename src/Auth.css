@@ -1,0 +1,122 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-color: white;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    /* height: 620px; */
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-radius: 5px; 
+    background-color: white;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+  label{
+    text-align: center;
+  }
+
+  .name{
+    padding-left: 70px;
+    font-size: 20px;
+} 
+
+  input{
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+
+  .second-input{
+      padding-top: 20px;
+  }
+
+  .more-input{
+    padding-top: 20px;
+}
+
+  button{
+      width: 380px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: #b103fc;
+      color: white;
+      font-size: 25px;
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .register-button{
+    padding-top: 25px;
+}
+
+  .otp-button{
+    padding-top: 25px;
+}
+
+.verify-button{
+    padding-top: 25px;
+}
+
+
+.reset-button{
+    padding-top: 25px;
+}
+
+  .link{
+      font-size: 15px;
+      font-weight: 400;
+  }
+   a{
+       color: blue;
+   }
+
+  /*  fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  } */
+   fieldset {
+    background-color: #eeeeee;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
